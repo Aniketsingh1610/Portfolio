@@ -1,0 +1,51 @@
+.page3{
+  font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+  }
+
+  .page3title{
+    font-size: 2.0rem;
+    display: flex;
+    margin-top: 3.0rem;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    height: 5.0rem;
+    width: 30.0rem;
+    color: white;
+    margin-right: 120rem;
+    
+  }
+  
+  .project{
+    background-color: rgb(188, 19, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40.0rem;
+    width: 30.0rem;
+    cursor: pointer;
+    border-radius: 2.0rem;
+    box-shadow: 1.0rem 1.0rem 5.0rem purple;
+    color: #000;
+    }
+  
+  
+    .page3content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10.0rem;
+      margin-top: 15.0rem;
+    }

@@ -1,0 +1,36 @@
+.header{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul{
+  position: fixed;
+  font-size: 1.6rem;
+  list-style: none;
+  display: flex;
+  gap: 3.0rem;
+  margin-right: 3.0rem;
+  margin: 0;
+  padding: 1.0rem;
+}
+ul li{
+    position: relative;
+    padding: 1.0rem;
+    color:white;
+    cursor: pointer;
+  }
+  ul li::before {
+    content: ''; /* Create a pseudo-element to act as the border */
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Initially position it at the left */
+    width: 0; /* Set initial width to 0 */
+    height: .1rem; /* Border height */
+    background-color: white; /* Border color */
+    transition: width 1s ease-in-out; /* Transition width property */
+  }
+  
+  ul li:hover::before {
+    width: 100%;
+  }
+

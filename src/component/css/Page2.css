@@ -1,0 +1,83 @@
+.page2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+.title{
+    font-size: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    height: 5.0rem;
+    width: 30.0rem;
+    color: white;
+    margin-left: -120rem;
+}
+
+.contentcontainer{
+    display: flex;
+    gap: 5rem;
+}
+
+.content{
+    border-radius: 2.0rem;
+    padding: 2.0rem;
+    margin-top: 7.0rem;
+    font-size: 2rem;
+    height: 30rem;
+    height: 30.0rem;
+    width: 50.0rem;
+    /* background-color: rgb(239, 239, 239); */
+    color: rgb(255, 255, 255);
+}
+#content1{
+    scale: 1.2;
+    position: relative;
+    right: 25.0rem;
+    bottom: 4rem;
+    font-size: 1.7rem;
+    line-height: 1.7;
+}
+
+#name{
+    font-size: 2rem;
+}
+
+
+#content2{
+    display: grid;
+    column-gap: 2rem;
+    font-size: 1.5rem;
+    margin-right: 38rem;
+    
+}
+
+.skills{
+    position: relative;
+    top: 10rem;
+    margin-top: 10.0rem;
+    height: 15.0rem;
+    width: 88.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 7.0rem;
+    color: black;
+    padding: 1.0rem;
+    padding: 0;
+}
+
+.skills img{
+    height: 10.0rem;
+    object-fit: cover;
+}
+

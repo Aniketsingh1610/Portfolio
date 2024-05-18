@@ -1,0 +1,66 @@
+.page4{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20rem;
+
+}
+
+p{
+    font-size: 3rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.input{
+    position: relative;
+    padding: 4rem;
+    width: 41rem;
+    background-color: rgb(243, 241, 241);
+    color: rgb(12, 12, 12);
+    margin-top: 7rem;
+    border-radius: 2rem;
+    height: 33rem;
+ }
+
+input[type="text"]{
+    width: 40rem;
+    height: 3rem;
+
+}
+
+label{
+    font-size: 2rem;
+}
+
+
+.contact{
+    font-size: 1.3rem;
+    color: white;
+    display: grid;
+    gap: 2rem;
+    margin-left: 82rem;
+    margin-top: -30rem;
+}
+.contact img{
+    height: 3rem;
+    object-fit: contain;
+}
+
+.contact div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+html {
+    font-size: 62.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+@media screen and (max-width: 480px) {
+    html 
+    {
+        font-size: 30%;
+    }
+
+    .page2 .title
+    {
+     margin-left: 0;
+     width: 100%;
+    }
+
+    .page2 .content
+    {
+        margin-left: 0;
+        width: 50%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .page2 .skills
+    {
+        scale: 0.5;
+        margin-top: 0;
+    }
+    
+    .page3 .page3title
+    {
+     margin-right: 0;
+     width: 100%;
+    }
+
+    .page3 .page3content
+    {
+     flex-direction: column;
+    }
+
+    .page3 .project{
+        height: 12rem;
+    }
+    .page4 .page4{
+        padding-bottom:0 ;
+    }
+
+    .page4 .contact{
+    margin-left: -25rem;
+    margin-top:  5rem;
+    }
+
+    .contentcontainer{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+
+    .contentcontainer #content2{
+        margin-left: 80px;
+        margin-top: 0;
+    }
+
+    .contentcontainer #content1{
+        margin-left: 220px;
+
+    }
+
+    
+.page4 .button{
+    scale: 0.8;
+    margin-top: -20px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.page4 input[type=text]{
+    scale: 0.7;
+    margin-left: 20px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
 }
