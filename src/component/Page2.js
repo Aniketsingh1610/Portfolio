@@ -3,7 +3,6 @@ import './css/Page2.css'
 import { Link } from 'react-router-dom'
 export default function Page2() {
 
-
   return (
     <Link to='/page2'>
       <div className="page2">
