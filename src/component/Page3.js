@@ -10,10 +10,13 @@ export default function Page3() {
           PROJECTS
         </div>
         <div className="page3content">
-         <a  target="_blank" href="https://fitnesssladder.netlify.app" rel="noreferrer"> 
-          <div className="project">Gym Website</div></a>
+        <a  target="_blank" href="https://fitnesssladder.netlify.app" rel="noreferrer"> 
+          <div className="project">Gym Website</div>
+        </a>
           <div className="project">E-commerce</div>
+         <a target="_blank" href="https://textutiles-128.netlify.app/" rel="noreferrer">
           <div className="project">Textutiles</div>
+         </a>
         </div>
       </div> 
     </>
