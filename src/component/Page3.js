@@ -14,9 +14,9 @@ export default function Page3() {
           <div className="project">Gym Website</div>
         </a>
           <div className="project">E-commerce</div>
-         <a target="_blank" href="https://textutiles-128.netlify.app/" rel="noreferrer">
+         {/* <a target="_blank" href="https://textutiles-128.netlify.app/" rel="noreferrer"> */}
           <div className="project">Textutiles</div>
-         </a>
+         {/* </a> */}
         </div>
       </div> 
     </>
