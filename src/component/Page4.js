@@ -3,6 +3,11 @@ import './css/Page4.css';
 import Button from '@mui/material/Button';
 
 export default function Page4() {
+
+  let submitcode = ()=> {
+        document.getElementById('submitcode').style.display = "block"
+    }
+
     return (
         <div className='page4'>
 
@@ -17,9 +22,10 @@ export default function Page4() {
                     <input type="text" placeholder='Enter your Subject' required /><br /><br />
                     <label htmlFor="">Message</label><br />
                     <input type="text" placeholder='Enter your Message' required /><br /><br /><br />
-                    <Button className='button' variant="contained" color="success">
+                    <Button onClick={submitcode} className='button' variant="contained" color="success">
                         Submit
                     </Button>
+                    <p id='submitcode'>Thank you response submitted successfully</p>
                 </form>
             </div>
 

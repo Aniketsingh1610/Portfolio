@@ -1,11 +1,28 @@
 .page1 {
   display: flex;
+  
   justify-content: center;
   align-items: center;
   overflow: hidden;
   color: white;
   text-align: center;
   height: 75rem;
+  width: 100%;
+  font-size: 7rem;
+  margin-top: -10rem;
+
+  background-color: black;
+}
+.page11 {
+  margin-top: -60rem;
+  height: 75rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  text-align: center;
   width: 100%;
   font-size: 7rem;
   background-color: black;
@@ -17,4 +34,117 @@
 
 #title{
   background-color: red;
+}
+
+
+#F{
+  position: relative;
+  animation-name: Fword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Fword {
+  from {top: -50rem;}
+  to {top: 0;} 
+}
+#R{
+  position: relative;
+  animation-name: Rword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Rword {
+  from {left: -50rem;}
+  to {left: 0;} 
+}
+#O{
+  position: relative;
+  animation-name: Oword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Oword {
+  from {left: -50rem;}
+  to {left: 0;} 
+}
+#N{
+  position: relative;
+  animation-name: Nword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Nword {
+  from {top: -50rem;}
+  to {top: 0;} 
+}
+#T{
+  position: relative;
+  animation-name: Tword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Tword {
+  from {left: -50rem;}
+  to {left: 0;} 
+}
+#E{
+  position: relative;
+  animation-name: Eword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Eword {
+  from {left: -50rem;}
+  to {left: 0;} 
+}
+
+#D{
+  position: relative;
+  animation-name: Dword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Dword {
+  from {right: -50rem;}
+  to {right: 0;} 
+}
+#E{
+  position: relative;
+  animation-name: Eword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Eword {
+  from {bottom: -50rem;}
+  to {bottom: 0;} 
+}
+#V{
+  position: relative;
+  animation-name: Vword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Vword {
+  from {bottom: -50rem;}
+  to {bottom: 0;} 
+}
+#L{
+  position: relative;
+  animation-name: Lword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Lword {
+  from {bottom: -50rem;}
+  to {bottom: 0;} 
+}
+#P{
+  position: relative;
+  animation-name: Pword;
+  animation-duration:2s ;
+  transition: ease;
+}
+@keyframes Pword {
+  from {bottom: -50rem;}
+  to {bottom: 0;} 
 }

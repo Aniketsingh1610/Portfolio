@@ -64,3 +64,12 @@ a{
     text-decoration: none;
     color: white;
 }
+
+#submitcode{
+    display: none;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: -25px ;
+    margin-left: 100px ;
+    color: rgb(43, 0, 255);
+}

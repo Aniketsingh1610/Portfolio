@@ -3,8 +3,18 @@ import './css/Page2.css'
 import { Link } from 'react-router-dom'
 export default function Page2() {
 
+
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 300) {
+     document.getElementById('content2').style.animationName="slideleft"
+     document.getElementById('content1').style.animationName="slideright"
+    
+    }})
+  
+ 
   return (
-    <Link to='/page2'>
+    
+<Link to='/page2'>
       <div className="page2">
         <div className="title">
           ABOUT

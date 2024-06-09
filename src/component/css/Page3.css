@@ -40,7 +40,8 @@
     box-shadow: 1.0rem 1.0rem 5.0rem purple;
     color: #000;
     }
-  
+  .project:hover{background-color: rgb(157, 36, 157);
+  font-weight: bold;}
   
     .page3content{
       display: flex;

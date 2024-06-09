@@ -41,11 +41,18 @@
 #content1{
     scale: 1.2;
     position: relative;
-    right: 25.0rem;
+    right: 15.0rem;
     bottom: 4rem;
     font-size: 1.7rem;
     line-height: 1.7;
+    /* animation-name: slideright; */
+    animation-duration: 1s; 
+    transition: ease-in;
 }
+@keyframes slideright {
+    from {right: -50rem;}
+    to {right: 15rem;}
+  }
 
 #name{
     font-size: 2rem;
@@ -53,12 +60,20 @@
 
 
 #content2{
+    position: relative;
     display: grid;
     column-gap: 2rem;
     font-size: 1.5rem;
     margin-right: 38rem;
-    
+    /* animation-name: slideleft; */
+    animation-duration: 1s;  
+    transition: ease-in;
+
 }
+@keyframes slideleft {
+    from {left: -50rem;}
+    to {left: 0;}
+  }
 
 .skills{
     position: relative;
